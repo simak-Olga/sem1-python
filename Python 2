@@ -1,0 +1,10 @@
+a = float(input())
+c = 0
+sum = 0
+while a!=int(a):
+    a *= 10
+b = a
+while b != 0:
+    sum += b%10
+    b = b//10
+print(int(sum)
